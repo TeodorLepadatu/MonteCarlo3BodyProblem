@@ -29,15 +29,15 @@ def simulate(xmin1, xmax1, ymin1, ymax1, zmin1, zmax1, xmin2, xmax2, ymin2, ymax
         total += s
         intermediate_values[i] = total / (i + 1)
     mean_value = total / num_sims
-    print(f"Media finală: {mean_value:.4f}")
+    print(f"Energia potentiala gravitationala medie: {mean_value:.4f}")
     draw_graphic_simulation(intermediate_values, mean_value)
     return mean_value
 
 def draw_graphic_simulation(intermediate_values, mean_value):
     plt.figure(figsize=(10, 6))
     plt.plot(intermediate_values, label='Evoluția mediei', color='blue', linewidth=1)
-    plt.axhline(y=mean_value, color='red', linestyle='--', label=f'Media finală: {mean_value:.4f}')
-    plt.title("Evoluția valorilor intermediare ale mediei", fontsize=16)
+    plt.axhline(y=mean_value, color='red', linestyle='--', label=f'Energia medie: {mean_value:.4f}')
+    plt.title("Evoluția calculului mediei energiei", fontsize=16)
     plt.xlabel("Numărul simulării", fontsize=12)
     plt.ylabel("Media intermediară", fontsize=12)
     plt.legend(fontsize=12)
