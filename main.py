@@ -27,6 +27,7 @@ def simulate(m1, m2, m3, error = 0.001, trust = 0.99):
     total = 0
     a = -G*(m1*m2/np.sqrt(6) + m2*m3/3 + m1*m3/3*np.sqrt(3))
     b = -G*(m1*m2+m2*m3+m1*m3/3)
+    #a<b
     #print((np.abs(((b-a)**2)/(2*error*2)*np.log(2/(1-trust)))))
     num_sims = int(np.ceil(np.abs(((b-a)**2)/(2*error*2)*np.log(2/(1-trust)))))
     #print(num_sims)
@@ -55,4 +56,4 @@ def draw_graph_simulation(intermediate_values, mean_value):
     plt.tight_layout()
     plt.show()
 
-simulate(1000000, 1000, 100000)
+simulate(30*100000, 1000, 100000) #am incercat soare - luna - pamant desi nu e real ce e aici :(
