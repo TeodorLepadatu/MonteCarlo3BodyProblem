@@ -1,4 +1,4 @@
-#Determinarea energiei potențiale gravitaționale medii utilizând metoda Monte Carlo
+# Determinarea energiei potențiale gravitaționale medii utilizând metoda Monte Carlo
 
 ## Descrierea proiectului 
 
@@ -7,7 +7,7 @@ Proiectul urmărește determinarea energiei potențiale gravitaționale medii î
 
 ## Instrucțiuni de utilizare
 
-Pentru performanță sporită și posibilitatea de paralelizarea a calculului cu ajutorul GPU-ului, se recomandă compilarea codului în Google Colab, după cum poate fi văzut [aici] (https://tinyurl.com/codMonteCarlo). 
+Pentru performanță sporită și posibilitatea de paralelizarea a calculului cu ajutorul GPU-ului, se recomandă compilarea codului în Google Colab, după cum poate fi văzut [aici](https://tinyurl.com/codMonteCarlo). 
 
 ## Referințe bibliografice
 
