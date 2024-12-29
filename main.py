@@ -26,7 +26,7 @@ def calc_total_energy(m1, m2, m3, x1, y1, z1, x2, y2, z2, x3, y3, z3):
 def simulate(m1, m2, m3, error = 0.001, trust = 0.99):
     total = 0
     a = -G*(m1*m2/np.sqrt(6) + m2*m3/3 + m1*m3/3*np.sqrt(3))
-    b = -G*(m1*m2+m2*m3+m1*m3/3)
+    b = -G*(m1*m2+m2*m3/2+m1*m3/3)
     #a<b
     #print((np.abs(((b-a)**2)/(2*error*2)*np.log(2/(1-trust)))))
     num_sims = int(np.ceil(np.abs(((b-a)**2)/(2*error*2)*np.log(2/(1-trust)))))
