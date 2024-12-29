@@ -11,7 +11,8 @@ Proiectul urmărește determinarea energiei potențiale gravitaționale medii î
 Pentru mai multe detalii despre enunț, dar și metodele de rezolvare, vă rugăm să consultați [documentația](Documentație.pdf).
 
 În contextul simulărilor, pozițiile celor 3 corpuri sunt redate vizual mai jos:
-![gif_puncte](assets/distributie_puncte.gif)
+<img src="ssets/distributie_puncte.gif" alt="Demo GIF" width="50%">
+
 
 
 ## Instrucțiuni de utilizare
