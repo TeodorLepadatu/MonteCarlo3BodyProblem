@@ -21,4 +21,12 @@ Pentru performanță sporită și posibilitatea de paralelizarea a calculului cu
 
 ## Referințe bibliografice
 
-_to be added_
+https://github.com/esa/torchquad
+
+https://www.youtube.com/watch?v=GOiTF11umMo&t=111s
+
+https://en.wikipedia.org/wiki/Gravitational_energy
+
+https://en.wikipedia.org/wiki/Three-body_problem
+
+https://www.youtube.com/playlist?list=PLUeHTafWecAXDF9vWi7PuE2ZQQ2hXyYt_
