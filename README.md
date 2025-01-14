@@ -17,7 +17,7 @@ Pentru mai multe detalii despre enunț, dar și metodele de rezolvare, vă rugă
 
 ## Instrucțiuni de utilizare
 
-Pentru performanță sporită și posibilitatea de paralelizarea a calculului cu ajutorul GPU-ului, se recomandă compilarea codului în Google Colab, după cum poate fi văzut [aici](https://tinyurl.com/codMonteCarlo). 
+Pentru performanță sporită și posibilitatea de paralelizarea a calculului cu ajutorul GPU-ului, se recomandă compilarea codului în Google Colab, după cum poate fi văzut [aici](https://colab.research.google.com/drive/12uOfXhkbD7-HSCUuOdk8yGLCr_R3hzVI?usp=sharing). 
 
 ## Referințe bibliografice
 

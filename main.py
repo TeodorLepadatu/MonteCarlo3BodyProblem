@@ -28,11 +28,12 @@ def calc_energy(m1, m2, x1, y1, z1, x2, y2, z2):
 def calc_total_energy(m1, m2, m3, x1, y1, z1, x2, y2, z2, x3, y3, z3):
     return calc_energy(m1, m2, x1, y1, z1, x2, y2, z2) + calc_energy(m1, m3, x1, y1, z1, x3, y3, z3) + calc_energy(m2, m3, x2, y2, z2, x3, y3, z3)
 
-def simulate(m1, m2, m3, error=0.001, trust=0.99):
+def simulate(m1, m2, m3, error=0.01, trust=0.95):
     total = 0
     a = -G * (m1 * m2 / np.sqrt(6) + m2 * m3 / 3 + m1 * m3 / 3 * np.sqrt(3))
     b = -G * (m1 * m2 + m2 * m3 + m1 * m3 / 3)
-    num_sims = int(np.ceil(np.abs(((b - a) ** 2) / (2 * error * 2) * np.log(2 / (1 - trust)))))
+    num_sims = int(np.ceil(np.abs(((b - a) ** 2) / (2 * error ** 2) * np.log(2 / (1 - trust)))))
+    print(f"Numar de simulari: {num_sims}")
     intermediate_values = np.zeros(num_sims)
     # pt a genera graficul punctelor intermediare
     # fig = plt.figure()
